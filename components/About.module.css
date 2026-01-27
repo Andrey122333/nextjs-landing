@@ -1,0 +1,26 @@
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text {
+  margin-top: var(--spacing-xl);
+}
+
+.text p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-light);
+}
+
+.text strong {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .text p {
+    font-size: 1rem;
+  }
+}
