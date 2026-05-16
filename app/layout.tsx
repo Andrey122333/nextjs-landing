@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter, Montserrat } from 'next/font/google'
 import './globals.css'
 
@@ -17,16 +17,17 @@ const montserrat = Montserrat({
   preload: true,
 })
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
+
 export const metadata: Metadata = {
   title: 'Кафе «Три Фреймворка» — Место встречи разработчиков',
   description: 'Уникальное кафе для разработчиков с высокоскоростным Wi-Fi, авторским кофе и комфортными рабочими местами. Работаем 24/7.',
   keywords: ['кафе для программистов', 'коворкинг', 'кофе', 'Wi-Fi', 'IT-сообщество', 'разработчики', 'митапы', 'хакатоны'],
   authors: [{ name: 'Кафе «Три Фреймворка»' }],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
   robots: {
     index: true,
     follow: true,

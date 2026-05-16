@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="container">
         <div className={styles.content}>
           <div className={styles.section}>
-            <h3 className={styles.title}>НИР3</h3>
+            <h3 className={styles.title}>Лендинг</h3>
             <p className={styles.description}>
               Научное исследование производительности SSR-фреймворков
             </p>
@@ -74,12 +74,12 @@ export default function Footer() {
             <h4 className={styles.heading}>Контакты</h4>
             <ul className={styles.links}>
               <li>
-                <a href="mailto:research@nir3.dev" className={styles.link}>
-                  research@nir3.dev
+                <a href="mailto:val_andrey@mail.ru" className={styles.link}>
+                  val_andrey@mail.ru
                 </a>
               </li>
               <li>
-                <a href="https://github.com/nir3" target="_blank" rel="noopener noreferrer" className={styles.link}>
+                <a href="https://github.com/Andrey122333/ssr-benchmark-infra" target="_blank" rel="noopener noreferrer" className={styles.link}>
                   GitHub
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/>
@@ -92,7 +92,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copyright}>
-            © {currentYear} НИР3. Все права защищены.
+            © {currentYear} Лендинг. Все права защищены.
           </p>
           <p className={styles.tech}>
             Собрано с помощью Next.js {process.env.NEXT_PUBLIC_FRAMEWORK_VERSION || '15+'}
